@@ -1,7 +1,6 @@
 const express=require('express');
 const nodemailer = require("nodemailer");
 const Register = require('../model/Registermodel');
-const { Slide } = require('react-toastify/unstyled');
 const registerRouter = express.Router();
 
 
